@@ -1,10 +1,6 @@
-# DLIP_Project_Virtual_Mouse_2022
-
 .
 
-
-
-# AI Virtual Mouse with Hand Gesture Detection
+# DLIP Project: AI Virtual Mouse with Hand Gesture Detection
 
 ------
 
