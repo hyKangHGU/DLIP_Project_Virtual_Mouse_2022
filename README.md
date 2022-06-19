@@ -465,8 +465,7 @@ The average CPS of general mouse is 5.56. On the other hand, the average CPS of 
 The mole game was developed to practice mouse movements and clicks. Using this game, we compared a general mouse and a virtual mouse. 
 
 
-
-![mole game](.\images\mole game.png)
+![mole game](https://user-images.githubusercontent.com/91526930/174494747-74c95460-b343-44ae-b991-7f51dd6b04a0.png)
 
 | ![general_mouse mole_game](https://user-images.githubusercontent.com/91526930/174494106-ee3a81c1-dacb-4b58-a35b-c23429aabc39.png) | ![virtual_mouse mole_game](https://user-images.githubusercontent.com/91526930/174494111-338b7db4-4bf4-48f0-8d3f-d75494d8330a.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
