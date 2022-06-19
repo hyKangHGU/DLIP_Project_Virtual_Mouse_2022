@@ -6,7 +6,7 @@
 
 ------
 
-**Date: **2022-06-17
+**Date:** 2022-06-17
 
 **Author:**  Hee-Yun Kang, Woo-Ju So
 
@@ -36,8 +36,7 @@ The goal of this project is to perform all basic operations of mouse with only h
 
 Hand can be recognized by using MediaPipe's hand landmakr model. As shown in the figure below, landmark information for each joint of the hand is available.
 
-![Hand_Landmark](images\Hand_Landmark.png)
-
+![Hand_Landmark](https://user-images.githubusercontent.com/91526930/174493879-430ad4c1-0ea7-4c94-9638-ddfa58cb607c.png)
 
 
 ------------------
@@ -80,13 +79,14 @@ Hand can be recognized by using MediaPipe's hand landmakr model. As shown in the
 
 Run anaconda prompt in administrator mode.
 
-![Conda_Prompt](images\Conda_Prompt.png)
+![Conda_Prompt](https://user-images.githubusercontent.com/91526930/174493890-257c332b-c4a7-4757-ac82-a314b32b350d.png)
+
 
 
 
 Python version == 3.7.13 or 3.8.13 
 
-![create_virtual_mouse_env](images\create_virtual_mouse_env.png)
+![create_virtual_mouse_env](https://user-images.githubusercontent.com/91526930/174493907-c1ce096f-c710-41b6-8952-d48540440a55.png)
 
 ```
 conda create -n virtual_mouse python=3.7.13
@@ -116,7 +116,7 @@ pip install pyautogui
 
 After downloading files and install libraries, you can see execution error. This error means that the protobuf package should be downgraded to 3.20.x.
 
-![Error_1](images\Error_1.png)
+![Error_1](https://user-images.githubusercontent.com/91526930/174493915-544e7634-2854-4724-b684-52fb73189416.png)
 
 ```
 pip uninstall protobuf
@@ -223,7 +223,7 @@ elif  fingers[1] == 0 and fingers[2] == 1 and fingers[3] == 0                   
 elif  fingers[0] == 0 and fingers[1] == 1                                                     :    cMode = MOUSE_MOVE
 ```
 
-![FlowChart](.\images\FlowChart.png)
+![FlowChart](https://user-images.githubusercontent.com/91526930/174493926-49555cb3-73df-4467-b698-096bf85caa09.png)
 
 
 
@@ -233,7 +233,9 @@ elif  fingers[0] == 0 and fingers[1] == 1                                       
 
 - **Mouse cursor moving**
 
-| ![moving_mode](.\images\moving_mode.png) | ![drag_down_mode](.\images\drag_down_mode.png) |
+
+
+| ![moving_mode](https://user-images.githubusercontent.com/91526930/174493945-6449af66-f704-4314-a559-6c1b8a05f4a4.png) | ![drag_down_mode](https://user-images.githubusercontent.com/91526930/174493965-1847b969-259c-4af3-8c1b-11e6f951b8d9.png) |
 | :--------------------------------------: | :--------------------------------------------: |
 |               Moving Mode                |                 Drag Down Mode                 |
 
@@ -264,7 +266,9 @@ if cMode == MOUSE_MOVE or cMode == MOUSE_DRAG_DOWN:
 
 - **Left Click**
 
-| ![left_click_wait_mode](.\images\left_click_wait_mode.png) | ![left_click_mode](.\images\left_click_mode.png) |
+
+
+| ![left_click_wait_mode](https://user-images.githubusercontent.com/91526930/174493977-d78d13da-b971-4066-b1bb-e7c1cfc7d2aa.png) | ![left_click_mode](https://user-images.githubusercontent.com/91526930/174493980-06e4e524-a027-4551-a155-0e52f4ca1c27.png) |
 | :--------------------------------------------------------: | :----------------------------------------------: |
 |                  Left-Click Standby Mode                   |                 Left-Click Mode                  |
 
@@ -290,7 +294,7 @@ elif cMode == MOUSE_L_CLICK_WAIT:
 
 - **Right Click**
 
-| ![right_click_wait_mode](.\images\right_click_wait_mode.png) | ![right_click_mode](.\images\right_click_mode.png) |
+| ![right_click_wait_mode](https://user-images.githubusercontent.com/91526930/174494002-f2550458-fa0f-4185-9ccf-b0f1edab0d1c.png) | ![right_click_mode](https://user-images.githubusercontent.com/91526930/174494001-d14a64ef-a929-43cd-a90d-9b9f93f515a1.png) |
 | :----------------------------------------------------------: | :------------------------------------------------: |
 |                   Right-Click Standby Mode                   |                  Right-Click Mode                  |
 
@@ -316,7 +320,7 @@ elif cMode == MOUSE_R_CLICK_WAIT:
 
 - **Drag Up**
 
-| ![drag_down_mode](.\images\drag_down_mode.png) | ![Drop_mode](.\images\Drop_mode.png) |
+| ![drag_down_mode](https://user-images.githubusercontent.com/91526930/174494043-702b59f1-9b6e-4da4-90eb-8b6539f80b16.png) | ![Drop_mode](https://user-images.githubusercontent.com/91526930/174494046-7521028b-ee92-449f-b04d-a2c79c538581.png) |
 | :--------------------------------------------: | :----------------------------------: |
 |                 Drag Down Mode                 |             Drag Up Mode             |
 
@@ -336,7 +340,9 @@ elif pMode != MOUSE_DRAG_UP and cMode == MOUSE_DRAG_UP:
 
 - **Scroll**
 
-| ![scroll_wait_mode](.\images\scroll_wait_mode.png) | ![scroll_mode](.\images\scroll_mode.png) |
+
+
+| ![scroll_wait_mode](https://user-images.githubusercontent.com/91526930/174494061-50fb6fa3-8765-4abf-b41a-e31c3ee436a1.png) | ![scroll_mode](https://user-images.githubusercontent.com/91526930/174494058-5eaa1b46-9fdd-48c7-b6d0-4712e17106f5.png) |
 | :------------------------------------------------: | :--------------------------------------: |
 |                Scroll Standby Mode                 |                  Scroll                  |
 
@@ -375,7 +381,8 @@ elif pMode == SCROLL_WAIT and cMode == SCROLL_MOVE:
 
 - **Middle Finger Filter**
 
-![middle_finger_filter_mode](.\images\middle_finger_filter_mode.png)
+![middle_finger_filter_mode](https://user-images.githubusercontent.com/91526930/174494083-7fff8394-659b-4f6d-936b-7ca89b5bdedc.png)
+
 
 Since someone can offend the other person by swearing with their fingers, blur processing is performed to prevent this. 
 
@@ -401,7 +408,8 @@ Since someone can offend the other person by swearing with their fingers, blur p
 
 - **None**
 
-![none_mode](.\images\none_mode.png)
+![none_mode](https://user-images.githubusercontent.com/91526930/174494093-df3f42c4-4538-4103-981f-d369c2b4e3f5.png)
+
 
 This is a nothing mode. This is a mode that prevents the mouse from moving and not doing any action. 
 
@@ -438,11 +446,15 @@ cv.imshow("Image", img)             # 4) Display
 
 CPS means click per second. CPS can be measured in this [website](https://checkcps.com/ko/). We were able to compare the click speed of a general mouse and a virtual mouse. The test counts the number of clicks in 5 seconds. The results for 5 times are as follows.
 
-| ![general_mouse_CPS TEST](.\images\general_mouse_CPS TEST.png) | ![virtual_mouse CPS Test](.\images\virtual_mouse CPS Test.png) |
+| ![general_mouse_CPS TEST](https://user-images.githubusercontent.com/91526930/174494108-bd56a852-c8de-4366-94b5-b95a149290f5.png) | ![virtual_mouse CPS Test](https://user-images.githubusercontent.com/91526930/174494109-60c69a49-ccdd-431b-855c-c59bd1bb2ecb.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                        General Mouse                         |                        Virtual Mouse                         |
 
 The average CPS of general mouse is 5.56. On the other hand, the average CPS of the virtual mouse is 4.16. This means that the virtual mouse can click at about 75% of the speed of a general mouse. 
+
+
+
+
 
 
 
@@ -454,7 +466,7 @@ The mole game was developed to practice mouse movements and clicks. Using this g
 
 ![mole game](.\images\mole game.png)
 
-| ![general_mouse mole_game](.\images\general_mouse mole_game.png) | ![virtual_mouse mole_game](.\images\virtual_mouse mole_game.png) |
+| ![general_mouse mole_game](https://user-images.githubusercontent.com/91526930/174494106-ee3a81c1-dacb-4b58-a35b-c23429aabc39.png) | ![virtual_mouse mole_game](https://user-images.githubusercontent.com/91526930/174494111-338b7db4-4bf4-48f0-8d3f-d75494d8330a.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                        General Mouse                         |                        Virtual Mouse                         |
 
@@ -496,7 +508,10 @@ For a general mouse, a maximum score of 609 was obtained, and for a virtual mous
 
   It is implemented to perform specific actions with predefined hand gestures. Even if the gesture is the same in the eyes of a human, it may be recognized as a different gesture. For example, even though it is cursor moving mode, it may be recognized as left click waiting mode according to a change in posture. It should be implemented to minimized the interference between each operation by giving additional conditions. 
 
-  | ![moving_normal](.\images\moving_normal.png) | ![moving_fault_recognition](.\images\moving_fault_recognition.png) | ![left_click_normal](.\images\left_click_normal.png) |
+
+
+
+  | ![moving_normal](https://user-images.githubusercontent.com/91526930/174494155-3b0d28cc-13ce-43c1-a512-6ed4d71c89a5.png) | ![moving_fault_recognition](https://user-images.githubusercontent.com/91526930/174494153-a2e5d871-d5d2-45ec-8504-58a4aed08eb9.png) | ![left_click_normal](https://user-images.githubusercontent.com/91526930/174494150-c010691a-c0cf-4e77-aa0f-0f9836c3c8f8.png) |
   | :------------------------------------------: | :----------------------------------------------------------: | :--------------------------------------------------: |
   |                 Moving Mode                  |                      Fault Recognition                       |               Left Click Waiting Mode                |
 
