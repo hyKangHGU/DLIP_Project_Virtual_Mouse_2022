@@ -442,7 +442,7 @@ cv.imshow("Image", img)             # 4) Display
 
 ## 4. Results and Analysis
 
-#### CPS Test
+### CPS Test
 
 CPS means click per second. CPS can be measured in this [website](https://checkcps.com/ko/). We were able to compare the click speed of a general mouse and a virtual mouse. The test counts the number of clicks in 5 seconds. The results for 5 times are as follows.
 
@@ -458,7 +458,7 @@ The average CPS of general mouse is 5.56. On the other hand, the average CPS of 
 
 
 
-#### [Mole Game](https://edcoach.tistory.com/entry/꿀멘토두더지게임)
+### [Mole Game](https://edcoach.tistory.com/entry/꿀멘토두더지게임)
 
 The mole game was developed to practice mouse movements and clicks. Using this game, we compared a general mouse and a virtual mouse. 
 
@@ -474,7 +474,8 @@ For a general mouse, a maximum score of 609 was obtained, and for a virtual mous
 
 
 
-#### Evaluation by Function
+
+### Evaluation by Function
 
 - **Left / Right / Double click**
 
@@ -490,7 +491,8 @@ For a general mouse, a maximum score of 609 was obtained, and for a virtual mous
 
 
 
-#### Further Work
+
+### Further Work
 
 - **Wheel click**
 
